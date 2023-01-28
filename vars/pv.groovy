@@ -1,7 +1,3 @@
-def info(message) {
-    echo "INFO: ${message}"
-}
-
-def warning(message) {
-    echo "WARNING: ${message}"
+def call(name) {
+    echo "hello ${name}"
 }

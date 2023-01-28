@@ -27,7 +27,7 @@
              }
 
 
-             stage('Storing in centralized palce') {
+             stage('Storing in centralized place') {
                  steps{
                      echo 'hello from hello centralised stage'
                  }
