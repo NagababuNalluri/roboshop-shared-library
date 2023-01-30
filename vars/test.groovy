@@ -1,3 +1,8 @@
 def nag() {
-    echo "hello"
+    echo "hello "
+}
+
+def nalluri() {
+    def abc = hello
+    echo ${abc}
 }
