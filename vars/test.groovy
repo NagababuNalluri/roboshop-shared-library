@@ -9,6 +9,6 @@ def nalluri() {
     echo "component name is ${component}"
 }
 
-def hema(x){
+def hema(){
     echo "${x}"
 }
