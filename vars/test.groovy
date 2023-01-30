@@ -1,3 +1,4 @@
-def nag(nalluri) {
+def nag() {
+    abc= hello
     echo "abc=${abc}"
 }
