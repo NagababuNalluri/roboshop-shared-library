@@ -4,5 +4,7 @@ def nag() {
 
 def nalluri() {
     def abc = "hello"
+    def component= "frontend"
     echo abc
+    print component
 }
