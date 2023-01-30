@@ -19,7 +19,7 @@ def list =["father","mother","wife","daughter"]
     }
     def a=5
     def b=10
-    if(a = b){
+    if(a == b){
         print "a and b are same values"
     }else{
         print "a and b are not having same value"
