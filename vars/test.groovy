@@ -4,5 +4,5 @@ def nag() {
 
 def nalluri() {
     def abc = "hello"
-    echo ${abc}
+    echo abc
 }
