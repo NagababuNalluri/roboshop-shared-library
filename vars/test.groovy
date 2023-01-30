@@ -15,7 +15,7 @@ def hema(){
 def example(){
     def x = 10
     def y = 20
-    for(int i=0;i>x;i++) {
+    for(int i = 0;i>10;i++) {
         println(i)
     }
 }
