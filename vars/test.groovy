@@ -3,6 +3,6 @@ def nag() {
 }
 
 def nalluri() {
-    def abc = hello
+    def abc = "hello"
     echo ${abc}
 }
