@@ -6,7 +6,7 @@ def nalluri() {
     def abc = "hello"
     def component= "frontend"
     echo abc
-    print component
+    echo "component name is ${component}"
 }
 
 def hema(x){
