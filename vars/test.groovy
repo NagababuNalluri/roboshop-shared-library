@@ -13,8 +13,8 @@ def hema(){
     echo "${x}"
 }
 def example(){
-
-    for(int i = 0;i<10;i++) {
+def list =["father","mother","wife","daughter"]
+    for(i in list) {
         println(i)
     }
 }
