@@ -8,3 +8,7 @@ def nalluri() {
     echo abc
     print component
 }
+
+def hema(){
+    echo "${}"
+}
