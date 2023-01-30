@@ -9,6 +9,6 @@ def nalluri() {
     print component
 }
 
-def hema(){
-    echo "${}"
+def hema(x){
+    echo "${x}"
 }
