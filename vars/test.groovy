@@ -1,4 +1,3 @@
 def nag() {
-    abc= "hello"
-    echo "abc=${abc}"
+    echo "hello"
 }
