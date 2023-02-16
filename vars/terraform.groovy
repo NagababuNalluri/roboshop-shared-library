@@ -2,7 +2,7 @@ def call() {
     pipeline {
         agent {
             node {
-                label 'ansible'
+                label 'server'
             }
         }
         parameters {
