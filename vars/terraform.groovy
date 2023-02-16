@@ -4,6 +4,9 @@ def call() {
             node {
                 label 'workstation'
             }
+            options {
+                ansiColor('xterm')
+            }
         }
         parameters {
             string(name: 'INFRA_ENV', defaultValue: '', description: 'Input as dev or prod')
