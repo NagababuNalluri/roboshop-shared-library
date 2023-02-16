@@ -21,6 +21,19 @@ def call() {
 
 
             }
+            stage ('terraform Apply') {
+                steps {
+                    sh "terraform apply -var.file=env-${INFRA_ENV}/main.tfvars"
+                }
+
+
+
+            }
+            post {
+                always{
+                    cleanWs()
+                }
+            }
         }
     }
 }
