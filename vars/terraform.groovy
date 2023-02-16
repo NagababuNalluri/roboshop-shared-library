@@ -1,6 +1,6 @@
 def call() {
     pipeline {
-        agnet {
+        agent {
             node {
                 label "workstation"
             }
