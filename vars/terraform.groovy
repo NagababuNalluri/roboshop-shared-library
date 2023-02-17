@@ -25,6 +25,11 @@ def call() {
 
 
         }
+        post {
+            always {
+                cleanWc()
+            }
+        }
 
     }
 }
